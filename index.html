@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tabs></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="site-header">
+        <h1 class="site-heading">Using Lists for Navigation: Tab Navigation</h1>
+            <code>display: flex</code>
+            <nav>
+                <ul class="site-nav">
+                    <li><a href="" class="nav-link current-page">home</a></li>
+                    <li><a href="" class="nav-link">fruits</a></li>
+                    <li><a href="" class="nav-link">vegtables </a></li>
+                    <li><a href="" class="nav-link">deserts</a></li>
+                    <li><a href="" class="nav-link">about</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <main class="site-main">
+            <h2><code>Use display: flex</code> to create equal width anchor links that look like tabs.</h2>
+
+            <p>With flexbox, you need a "flex container" to lay out the children. In this case, the flex container is the unordered list element, and the children are the list item elements, so the semantic structure of your menu is ready for flexbox without anything else needed in the markup! No <code>div</code>  tags required.</p>
+
+            <p>In this design, styling the list item to have <code>flex: 1 1 0</code> makes all the list items the same width. The text is centered, and padding on top/bottom of the anchor tag makes the height. Of course, the anchor tag is styled to generate a block display box. The gap between the list items is styled in the list.</p>
+
+            <p>By making the current page background color of the anchor tag the same color as the page, it creates the "tab."</p>
+            <p>Remember, the key to this layout is the combination of the flex container and the flex items, along with appropriate styling to achieve the desired tab appearance.</p>
+
+
+    </main>
+ </div>
+</body>
+</html>
+
+
+
